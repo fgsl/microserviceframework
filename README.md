@@ -14,4 +14,6 @@ This class use the model **AclFactory** to create a permission control based on 
 
 Class **AclHandler** provides a HTTP handler for a authorization error page. Use  **AclHandlerFactory** to create instances of **AclHandler**.
 
-Class **LogoutHandler** provides a standard HTTP handler for exiting from an application. Use **LogoutHandlerFactory** to create instances of **LogoutHandler**. 
+Class **LogoutHandler** provides a standard HTTP handler for exiting from an application. Use **LogoutHandlerFactory** to create instances of **LogoutHandler**.
+
+Class **SessionMiddleware** enables use of session for an application. 
