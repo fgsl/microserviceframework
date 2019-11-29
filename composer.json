@@ -1,0 +1,35 @@
+{
+	"name" : "fgsl/microserviceframework",
+	"description" : "Fgsl Microservice Framework",
+	"type" : "framework",
+	"keywords" : [
+		"framework",
+		"microservice"
+	],
+	"homepage" : "https://github.com/fgsl/microserviceframework",
+	"license" : "AGPL-3.0-only",
+	"autoload" : {
+		"psr-4" : {
+			"Fgsl\\Microserviceframework\\" : "src/Fgsl/Microserviceframework",
+			"Fgsl\\Test\\Microserviceframework\\" : "tests/Fgsl/Microserviceframework"
+		}
+	},
+	"require" : {
+		"php" : ">=7.0",
+		"phpunit/phpunit" : "^8.3",
+		"zendframework/zend-authentication" : "^2.7",
+		"fgsl/jwt" : "1.1.0",
+		"fgsl/http" : "1.2.1",
+		"zendframework/zend-diactoros" : "^1.7.1 || ^2.0",
+		"zendframework/zend-expressive" : "^3.0.1",
+		"zendframework/zend-expressive-helpers" : "^5.0",
+		"zendframework/zend-expressive-zendrouter" : "^3.0",
+		"zendframework/zend-expressive-zendviewrenderer" : "^2.0",
+		"zendframework/zend-permissions-rbac" : "^3.0",
+		"zendframework/zend-servicemanager" : "^3.3",
+		"zendframework/zend-session" : "^2.9"
+	},
+	"config" : {
+		"secure-http" : false
+	}
+}
