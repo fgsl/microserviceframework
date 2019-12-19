@@ -17,8 +17,8 @@ class AclFactory implements FactoryInterface
         $aclConfig = $container->get('config')['acl'];
         $rolesConfig = $container->get('config')['roles'];
         $acl = new Rbac();
-        foreach($aclConfig as $cpf => $configuredRole){
-            $role = new Role($cpf);
+        foreach($aclConfig as $uid => $configuredRole){
+            $role = new Role($uid);
             foreach($rolesConfig[$configuredRole] as $permission){
                 $role->addPermission($permission);
             }
