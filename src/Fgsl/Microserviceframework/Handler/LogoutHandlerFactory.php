@@ -9,9 +9,9 @@ namespace Fgsl\Microserviceframework\Handler;
 
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Expressive\Router\RouterInterface;
-use Zend\Expressive\Template\TemplateRendererInterface;
-use Zend\Session\ManagerInterface;
+use Mezzio\Router\RouterInterface;
+use Mezzio\Template\TemplateRendererInterface;
+use Laminas\Session\ManagerInterface;
 
 class LogoutHandlerFactory
 {

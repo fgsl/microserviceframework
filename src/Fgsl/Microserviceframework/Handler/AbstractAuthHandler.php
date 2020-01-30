@@ -12,10 +12,10 @@ use Fgsl\Jwt\Jwt;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Diactoros\Response\RedirectResponse;
-use Zend\Expressive\Router\RouterInterface;
-use Zend\Expressive\Template\TemplateRendererInterface;
-use Zend\Permissions\Rbac\Rbac;
+use Laminas\Diactoros\Response\RedirectResponse;
+use Mezzio\Router\RouterInterface;
+use Mezzio\Template\TemplateRendererInterface;
+use Laminas\Permissions\Rbac\Rbac;
 
 abstract class AbstractAuthHandler implements RequestHandlerInterface
 {

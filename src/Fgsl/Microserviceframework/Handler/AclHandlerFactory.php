@@ -9,7 +9,7 @@ namespace Fgsl\Microserviceframework\Handler;
 
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Expressive\Template\TemplateRendererInterface;
+use Mezzio\Template\TemplateRendererInterface;
 
 class AclHandlerFactory
 {
