@@ -10,11 +10,11 @@ namespace Fgsl\Microserviceframework\Handler;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Authentication\AuthenticationService;
-use Zend\Diactoros\Response\RedirectResponse;
-use Zend\Expressive\Router\RouterInterface;
-use Zend\Expressive\Template\TemplateRendererInterface;
-use Zend\Session\ManagerInterface;
+use Laminas\Authentication\AuthenticationService;
+use Laminas\Diactoros\Response\RedirectResponse;
+use Mezzio\Router\RouterInterface;
+use Mezzio\Template\TemplateRendererInterface;
+use Laminas\Session\ManagerInterface;
 
 class LogoutHandler implements RequestHandlerInterface
 {

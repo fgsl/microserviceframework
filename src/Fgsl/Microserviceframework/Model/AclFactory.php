@@ -6,9 +6,9 @@
 namespace Fgsl\Microserviceframework\Model;
 
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\Factory\FactoryInterface;
-use Zend\Permissions\Rbac\Rbac;
-use Zend\Permissions\Rbac\Role;
+use Laminas\ServiceManager\Factory\FactoryInterface;
+use Laminas\Permissions\Rbac\Rbac;
+use Laminas\Permissions\Rbac\Role;
 
 class AclFactory implements FactoryInterface
 {

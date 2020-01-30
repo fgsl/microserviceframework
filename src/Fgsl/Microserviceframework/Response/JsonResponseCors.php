@@ -6,7 +6,7 @@
 namespace Fgsl\Microserviceframework\Response;
 
 
-use Zend\Diactoros\Response\JsonResponse;
+use Laminas\Diactoros\Response\JsonResponse;
 /**
  * Ensures that response complains with CORS
  */

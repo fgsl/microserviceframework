@@ -10,8 +10,8 @@ namespace Fgsl\Microserviceframework\Handler;
 use Fgsl\Microserviceframework\Model\AclFactory;
 use Psr\Container\ContainerInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use Zend\Expressive\Router\RouterInterface;
-use Zend\Expressive\Template\TemplateRendererInterface;
+use Mezzio\Router\RouterInterface;
+use Mezzio\Template\TemplateRendererInterface;
 
 abstract class AbstractAclHandlerFactory
 {

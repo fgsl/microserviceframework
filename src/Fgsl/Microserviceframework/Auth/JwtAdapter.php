@@ -5,8 +5,8 @@
  */
 namespace Fgsl\Microserviceframework\Auth;
 
-use Zend\Authentication\Adapter\AdapterInterface;
-use Zend\Authentication\Result;
+use Laminas\Authentication\Adapter\AdapterInterface;
+use Laminas\Authentication\Result;
 use Fgsl\Jwt\Jwt;
 
 class JwtAdapter implements AdapterInterface
@@ -28,7 +28,7 @@ class JwtAdapter implements AdapterInterface
  
     /**
      * {@inheritDoc}
-     * @see \Zend\Authentication\Adapter\AdapterInterface::authenticate()
+     * @see \Laminas\Authentication\Adapter\AdapterInterface::authenticate()
      */
     public function authenticate()
     {
