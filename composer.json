@@ -20,7 +20,7 @@
 		"php" : ">=7.0",
 		"phpunit/phpunit" : "^8.3",
 		"laminas/laminas-authentication" : "^2.7",
-		"fgsl/jwt" : "1.1.0",
+		"fgsl/jwt" : "1.1.1",
 		"fgsl/http" : "1.2.1",
 		"laminas/laminas-diactoros" : "^1.7.1 || ^2.0",
 		"mezzio/mezzio" : "^3.0.1",
